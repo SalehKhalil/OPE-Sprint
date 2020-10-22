@@ -1,0 +1,43 @@
+{
+  "name": "ope-sprint",
+  "version": "0.0.0",
+  "description": "Sprint microservice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "eslint-config": "eslint --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalehKhalil/OPE-Sprint.git"
+  },
+  "keywords": [
+    "OPE",
+    "Final",
+    "Project",
+    "First",
+    "Step"
+  ],
+  "author": "Grupo FIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SalehKhalil/OPE-Sprint/issues"
+  },
+  "homepage": "https://github.com/SalehKhalil/OPE-Sprint#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.19.3"
+  }
+}
